@@ -48,7 +48,7 @@ export default async function ProjectPage({
 
       <Reveal>
         <span className="mb-4 inline-block rounded-full border border-violet-500/30 bg-violet-500/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-violet-400">
-          Freelance Project
+          Projects
         </span>
         <h1 className="font-display text-3xl font-bold sm:text-5xl">
           {project.title}

@@ -20,6 +20,39 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "resident-complaint-routing-nlp",
+    title: "Resident Complaint Auto-Routing System",
+    featured: false,
+    summary:
+    "An NLP system that reads free-text resident complaints, predicts the correct team, and routes them instantly — with a human-in-the-loop safety net for anything it's unsure about.",
+    problem:
+      "Large rental operators handle tens of thousands of free-text resident complaints a year. Sorting them manually to the right team is slow, error-prone, and hard to track — and slow service drives residents to leave.",
+    impact:
+      "Automatically routes complaints to the correct team in seconds instead of manual sorting, with a human-in-the-loop safety net for low-confidence cases — reducing response time, cutting operational cost, and supporting higher resident retention.",
+    stack: ["Python", "TF-IDF", "Cosine Similarity", "MongoDB", "Streamlit"],
+    features: [
+      "Reads free-text complaints and predicts the correct team automatically",
+      "Confidence scoring flags uncertain cases for quick human review",
+      "Every request is tracked end-to-end",
+      "Residents rate the outcome, closing the feedback loop",
+    ],
+    challenges:[
+      "Free-text resident complaints are inconsistent in language and structure, making reliable auto-routing difficult without a way to safely handle low-confidence predictions.",
+    ],
+    solution:
+      "Built a TF-IDF + cosine similarity model with confidence scoring — high-confidence complaints route instantly, low-confidence ones are flagged for a human, keeping accuracy high without slowing the system down.",
+    architecture: [
+      "Streamlit UI (Complaint Intake)",
+      "TF-IDF Vectorization",
+      "Cosine Similarity Matching",
+      "Confidence Scoring & Routing",
+      "MongoDB (Tracking & Feedback)",
+    ],
+    github: "https://github.com/Inlighted/US_housing_NLP_project",
+    demo: "https://us-housing-nlp-project.streamlit.app/",
+    accent: "from-emerald-500 via-teal-500 to-cyan-400",
+  },
+  {
     slug: "ai-resume-analyzer",
     title: "AI Resume Analyzer & Interview Preparation Platform",
     featured: true,

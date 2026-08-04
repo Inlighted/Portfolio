@@ -16,9 +16,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Python & Database Tutor — $10/hour",
+  title: "Python & Database Tutor — $3/30 min",
   description:
-    "One-on-one mentoring in SQL, Python, Pandas, NumPy, Machine Learning, Data Engineering, Power BI and interview preparation. $10/hour.",
+    "One-on-one mentoring in SQL, Python, Pandas, NumPy, Machine Learning, Data Engineering, Power BI and interview preparation. $3/30 min.",
 };
 
 const topics = [
@@ -72,8 +72,8 @@ export default function TutoringPage() {
                   <GraduationCap size={24} />
                 </span>
                 <div className="text-right">
-                  <p className="gradient-text font-display text-4xl font-bold">$10</p>
-                  <p className="text-xs text-muted">per hour</p>
+                  <p className="gradient-text font-display text-4xl font-bold">$3</p>
+                  <p className="text-xs text-muted">per 30 minutes</p>
                 </div>
               </div>
               <h2 className="mt-6 font-display text-xl font-semibold">

@@ -114,13 +114,13 @@ export default function Contact() {
                   <label htmlFor="from_name" className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-muted">
                     Name
                   </label>
-                  <input id="from_name" name="from_name" required placeholder="Your name" className={inputCls} />
+                  <input id="from_name" name="from_name" required placeholder="Your name" className={inputCls} suppressHydrationWarning />
                 </div>
                 <div>
                   <label htmlFor="reply_to" className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-muted">
                     Email
                   </label>
-                  <input id="reply_to" name="reply_to" type="email" required placeholder="you@company.com" className={inputCls} />
+                  <input id="reply_to" name="reply_to" type="email" required placeholder="you@company.com" className={inputCls} suppressHydrationWarning />
                 </div>
               </div>
               <div className="mt-4">
@@ -130,7 +130,7 @@ export default function Contact() {
                 <textarea id="message" name="message" required rows={5} placeholder="Tell me about your project, role or question…" className={inputCls} />
               </div>
               <div className="mt-6 flex flex-wrap items-center gap-4">
-                <Button type="submit" disabled={status === "sending"}>
+                <Button type="submit" disabled={status === "sending"} suppressHydrationWarning>
                   {status === "sending" ? (
                     <>
                       <Loader2 size={16} className="animate-spin" /> Sending…

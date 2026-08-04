@@ -15,8 +15,8 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    role: "Senior Machine Learning / AI Engineer",
-    org: "Freelance · Financial Services Client",
+    role: "Machine Learning / AI Engineer",
+    org: "Contracting · Financial Services Client",
     summary:
       "Owned an AI-powered KYC document intelligence platform end-to-end in a highly regulated banking environment — from PySpark data pipelines to real-time inference APIs and LLM governance.",
     highlights: [
@@ -29,8 +29,8 @@ export const experience: Experience[] = [
     tags: ["GenAI", "RAG", "MLOps", "Azure Databricks", "FastAPI"],
   },
   {
-    role: "Data Engineer & Scrum Master",
-    org: "Freelance · Analytics Consulting Client",
+    role: "Data Engineer and ML Engineer",
+    org: "Contracting · Analytics Consulting Client",
     summary:
       "Owned the full data lifecycle of a vehicle complaints analytics platform on Azure while driving Agile delivery as Scrum Master.",
     highlights: [
@@ -42,8 +42,8 @@ export const experience: Experience[] = [
     tags: ["Azure", "Data Engineering", "Power BI", "Scrum"],
   },
   {
-    role: "Senior Data Scientist / ML Engineer",
-    org: "Freelance · Enterprise Security Client",
+    role: "Junior Data Scientist / ML Engineer",
+    org: "Contracting · Enterprise Security Client",
     summary:
       "Engineered a predictive phishing-intelligence ecosystem that moved security operations from reactive pattern-matching to proactive ML-driven defense.",
     highlights: [
@@ -55,7 +55,7 @@ export const experience: Experience[] = [
     tags: ["XGBoost", "Spark", "MLflow", "SHAP", "Security AI"],
   },
   {
-    role: "AI/ML Engineering Intern",
+    role: "AI/ML Engineer",
     org: "Leapgen.ai · Healthcare AI",
     summary:
       "Worked on Healthcare AI products, building LLM-based solutions across the patient and provider experience.",
@@ -70,7 +70,7 @@ export const experience: Experience[] = [
   },
   {
     role: "Associate Data Scientist",
-    org: "Freelance · Real Estate Analytics Client",
+    org: "Contracting · Real Estate Analytics Client",
     summary:
       "Built an explainable automated valuation model (AVM) for residential property prices across diverse regional markets.",
     highlights: [
@@ -83,7 +83,7 @@ export const experience: Experience[] = [
   },
   {
     role: "Data Analyst / Database Associate",
-    org: "Freelance · Enterprise Reporting Client",
+    org: "Full time · Enterprise Reporting Client",
     summary:
       "Supported a centralized vehicle-safety reporting system, automating ingestion and standardizing executive reporting.",
     highlights: [
@@ -238,41 +238,5 @@ export const testimonials = [
   },
 ];
 
-// ---------------------------------------------------------------------------
-// Blog — sample articles. Swap in real posts when ready.
-// ---------------------------------------------------------------------------
 
-export const blogPosts = [
-  {
-    slug: "rag-pipelines-that-dont-hallucinate",
-    title: "Building RAG Pipelines That Don't Hallucinate",
-    excerpt:
-      "Retrieval quality, chunking strategy and evaluation loops — the three levers that actually reduce hallucinations in production RAG systems.",
-    tag: "GenAI",
-    readTime: "8 min read",
-  },
-  {
-    slug: "training-serving-skew",
-    title: "Training–Serving Skew: The Silent ML Killer",
-    excerpt:
-      "Why your offline metrics lie, and how a versioned feature store keeps training and inference speaking the same language.",
-    tag: "MLOps",
-    readTime: "6 min read",
-  },
-  {
-    slug: "lakehouse-on-azure",
-    title: "A Pragmatic Lakehouse on Azure",
-    excerpt:
-      "ADF, ADLS Gen2, Databricks and Synapse Serverless — a battle-tested pattern for going from raw files to governed dashboards.",
-    tag: "Data Engineering",
-    readTime: "9 min read",
-  },
-  {
-    slug: "shap-for-stakeholders",
-    title: "Explaining Models to Humans with SHAP",
-    excerpt:
-      "Reason codes, risk indicators and how explainability turns skeptical stakeholders into champions of your model.",
-    tag: "Machine Learning",
-    readTime: "7 min read",
-  },
-];
+

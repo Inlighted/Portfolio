@@ -6,13 +6,13 @@ export const profile = {
   name: "Priyanka Deshpande",
   firstName: "Priyanka",
   location: "Las Vegas, NV, USA",
-  email: "priyavd29@gmail.com",
-  phone: "+1 (702) 850-9941",
+  email: "deshpande.priya07@gmail.com",
+  phone: "+1 (702) 721-5016",
   github: "https://github.com/Inlighted",
   githubUsername: "Inlighted",
   // TODO: replace with your real LinkedIn URL
-  linkedin: "https://www.linkedin.com/in/priyanka-deshpande",
-  leetcode: "https://leetcode.com/",
+  linkedin: "https://www.linkedin.com/in/priyade",
+  leetcode: "https://leetcode.com/Impriya29",
   resumeUrl: "/resume.pdf",
   workAuthorization:
     "Authorized to work in the USA (EAD holder). No visa sponsorship required. Open to relocation.",

@@ -11,9 +11,9 @@ export default function Projects() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-6 py-24">
       <SectionHeading
-        eyebrow="Freelance Projects"
+        eyebrow="Projects"
         title="Selected work"
-        subtitle="Production ML, GenAI and data platforms — presented as independent freelance engagements."
+        subtitle="Production ML, GenAI and data platforms — presented as independent engagements."
       />
       <div className="grid gap-6 md:grid-cols-2">
         {otherProjects.map((p, i) => (

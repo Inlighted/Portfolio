@@ -28,7 +28,6 @@ export default function Home() {
       <GitHubSection />
       <Services />
       <Testimonials />
-      <Blog />
       <Contact />
     </>
   );

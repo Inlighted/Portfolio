@@ -15,7 +15,7 @@ export default function Footer() {
             <li><Link href="/#projects" className="hover:text-current">Projects</Link></li>
             <li><Link href="/#services" className="hover:text-current">Services</Link></li>
             <li><Link href="/tutoring" className="hover:text-current">Tutoring</Link></li>
-            <li><Link href="/blog" className="hover:text-current">Blog</Link></li>
+            
             <li><Link href="/#contact" className="hover:text-current">Contact</Link></li>
           </ul>
         </nav>
